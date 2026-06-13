@@ -46,6 +46,17 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/* Font */
+
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+        url('fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* CSS */
 
 body {
@@ -68,4 +79,8 @@ input:focus {
 
 input:user-invalid {
   border-color: red;
+}
+
+.logo-text {
+  font-family: 'Norse';
 }
