@@ -91,6 +91,7 @@ input:user-invalid {
   background-size: cover;
   background-position: center;
   min-width: 37vw;
+  position: relative;
 }
 
 .signup-panel {
@@ -100,4 +101,23 @@ input:user-invalid {
   flex-direction: column;
   justify-content: center;
   gap: 40px;
+}
+
+.logo-img {
+  width: 80px;
+  height: 105px;
+}
+
+.logo-text {
+  font-size: 80px;
+}
+
+.logo-panel {
+  position: absolute;
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: 200px;
 }
