@@ -93,11 +93,12 @@ input:user-invalid {
 
 .signup-panel {
   min-height: 100vh;
-  width: 900px;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 40px;
+  color: #262d38;
 }
 
 .logo-img {
@@ -161,5 +162,37 @@ label {
 .form-text {
   margin-bottom: 20px;
   font-size: 21px;
+  font-weight: 700;
+  color: #262d38;
+}
+
+.button-section {
+  padding: 20px 50px 35px;
+}
+
+button {
+  background-color: #596D48;
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+button:hover {
+  background-color: #6b8457;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+a {
+  color: #596D48;
+  text-decoration: none;
   font-weight: 700;
 }
