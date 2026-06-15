@@ -69,6 +69,8 @@ body {
 
 input {
   border: 1px solid #E5E7EB;
+  border-radius: 5px;
+  width: 240px;
 }
 
 input:focus {
@@ -130,14 +132,34 @@ input:user-invalid {
 }
 
 .form-section {
-  height: 250px;
   background-color: white;
+  padding: 20px 50px 35px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
 form {
-  height: 200px;
-  width: 100%;
+  width: 620px;
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  column-gap: 64px;
+  row-gap: 18px;
+}
+
+.form-group {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: #374151;
+}
+
+.form-text {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 700;
 }
