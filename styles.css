@@ -84,7 +84,7 @@ input:user-invalid {
 }
 
 .branding-panel {
-  background-image: url(/images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
   background-size: cover;
   background-position: center;
   min-width: 37vw;
